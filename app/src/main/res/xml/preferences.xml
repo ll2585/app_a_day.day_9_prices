@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+    android:key="show_name"
+    android:title="Show Name"
+    android:summary="Show Name"
+    android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_brand"
+        android:title="Show Brand"
+        android:summary="Show Brand"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="show_category"
+        android:title="Show Category"
+        android:summary="Show Category"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_subcategory"
+        android:title="Show Subcategory"
+        android:summary="Show Subcategory"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="show_store"
+        android:title="Show Store"
+        android:summary="Show Store"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_sale"
+        android:title="Show On Sale"
+        android:summary="Show On Sale"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
